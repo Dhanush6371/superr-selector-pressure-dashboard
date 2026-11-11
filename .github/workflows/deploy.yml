@@ -23,17 +23,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: dashboard/package-lock.json
-      - name: Install
-        run: npm ci
-        working-directory: dashboard
-      - name: Build
-        run: npm run build
-        working-directory: dashboard
+      - run: npm ci
+      - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dashboard/dist
+          path: dist
 
   deploy:
     needs: build
