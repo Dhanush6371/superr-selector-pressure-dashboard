@@ -2,7 +2,7 @@
 
 Interactive dashboard for **SupeRR Selector Season 2, Round 1: the most reliable IPL and T20I players under pressure (2022–2026)**.
 
-Live: https://dhanush6371.github.io/superr-selector-pressure-dashboard/
+
 
 Pages: overview with the final top-10 lists, full rankings, player profiles, the Pressure Index, reliability checks, and the complete methodology report with all figures.
 
